@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="icon" href="./samsung.jpg" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="내 소개 페이지" />
+    <meta property="og:title" content="내 소개 페이지 만들기" />
+    <meta
+      property="og:description"
+      content="내 소개 페이지를 간단히 만들어보세요" />
+    <meta property="og:image" content="samsung.jpg" />
+
+    <title>Samsung x Fast Campus</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous" />
+
+    <link href="/style.css" rel="stylesheet" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+      * {
+        font-family: "Noto Sans KR", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><strong>Hello</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#경력"
+                >경력</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#취미">취미</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#기타">기타</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="text-center">
+      <div class="d-md-flex flex-md-equal w-100 h-100">
+        <div class="bg-primary">
+          <h1 class="mb-0">
+            <strong>Bootstrap을 활용해 반응형 모바일 페이지 만들기</strong>
+          </h1>
+        </div>
+        <div class="bg-body-tertiary">
+          <p class="align-middle">
+            다양한 태그와 라이브러리를 사용하여 자유롭게 표현해보세요
+          </p>
+        </div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100">
+        <div>
+          <h2 class="my-3" id="경력"><strong>💼 경력</strong></h2>
+          <p>OL을 활영하여 리스트를 표현해보세요</p>
+          <br />
+          <ol>
+            <li>첫번째</li>
+            <li>두번째</li>
+            <li>세번째</li>
+          </ol>
+        </div>
+        <div class="bg-body-tertiary">
+          <p>DL을 활용하여 리스트를 표현해보세요</p>
+          <dl>
+            <dt>HyperText Markup Language (HTML)</dt>
+            <dd>HTML이란?</dd>
+            <dt>Cascading Style Sheets (CSS)</dt>
+            <dd>CSS란?</dd>
+            <dt>JavaScript (JS)</dt>
+            <dd>JS란?</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100">
+        <div>
+          <h2 id="취미"><strong>🧗🏻‍♀️ 취미</strong></h2>
+          <h3><strong>헤딩 활용하기</strong></h3>
+          <p>
+            div 요소는 플로우 콘텐츠를 위한 통용 컨테이너입니다. CSS로 꾸미기
+            전에는 콘텐츠나 레이아웃에 어떤 영향도 주지 않습니다.
+          </p>
+        </div>
+        <div class="bg-body-tertiary">
+          <h3><strong>서브 헤딩</strong></h3>
+          <p>
+            P요소는 하나의 문단을 나타냅니다. 시각적인 매체에서, 문단은 보통
+            인접 블록과의 여백과 첫 줄의 들여쓰기로 구분하지만, HTML에서 문단은
+            이미지나 입력 폼 등 서로 관련있는 콘텐츠 무엇이나 될 수 있습니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100">
+        <div>
+          <h2 id="기타"><strong>😀 기타</strong></h2>
+          <h3>아직 더 표현하고 싶은게 있으신가요?</h3>
+          <p>아직도 <mark>다양한 태그</mark> 들이 남았답니다.</p>
+          <p>
+            <a
+              href="https://developer.mozilla.org/ko/docs/Web/HTML/Element"
+              target="_blank"
+              >여기에서</a
+            >
+            더 다양한 태그들을 확인해보시고 간단하게 사용해보세요
+          </p>
+        </div>
+        <div class="bg-body-tertiary">
+          <p>
+            이미 만들어진 간단한 부트스트랩 스타일을 사용하고 싶다면?
+            <a href="https://getbootstrap.com/" target="_blank"
+              >부트스트랩 문서를 참고해보세요</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100">
+        <div>
+          <h4><strong>About</strong></h4>
+          <p>
+            저에 대해 더 궁금하신가요? 자세히 알고 싶다면 아래의 소셜을
+            확인해주세요
+          </p>
+        </div>
+        <div class="bg-danger">
+          <h4><strong>Social</strong></h4>
+          <ol class="list-unstyled">
+            <li>
+              <a href="https://www.facebook.com" target="_blank">페이스북</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank">인스타그램</a>
+            </li>
+            <li><a href="mailto:hayaesle@naver.com">메일 보내기</a></li>
+            <li><a href="tel:010-0000-0000">전화 걸기</a></li>
+          </ol>
+
+          <p>
+            <a href="#">Back to top</a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
